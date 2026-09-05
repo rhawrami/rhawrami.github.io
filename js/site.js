@@ -90,6 +90,25 @@ function renderMediaList(id, items) {
       preview.append(iframe);
     }
 
+    if (window.matchMedia("(hover: hover)").matches) {
+      let closeTimer;
+
+      const openPreview = () => {
+        window.clearTimeout(closeTimer);
+        listItem.classList.add("preview-open");
+      };
+      const closePreview = () => {
+        closeTimer = window.setTimeout(() => {
+          listItem.classList.remove("preview-open");
+        }, 120);
+      };
+
+      link.addEventListener("mouseenter", openPreview);
+      link.addEventListener("mouseleave", closePreview);
+      preview.addEventListener("mouseenter", openPreview);
+      preview.addEventListener("mouseleave", closePreview);
+    }
+
     link.addEventListener("click", (event) => {
       if (window.matchMedia("(hover: none)").matches && !listItem.classList.contains("preview-open")) {
         event.preventDefault();
@@ -100,7 +119,7 @@ function renderMediaList(id, items) {
       }
     });
 
-    listItem.append(`${item.title} by ${item.creator} `, link, preview);
+    listItem.append(link, ` ${item.title} by ${item.creator}`, preview);
     list.append(listItem);
   });
 }
