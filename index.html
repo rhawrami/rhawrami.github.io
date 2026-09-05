@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The personal website of Ravan Hawrami.">
+    <title>Ravan Hawrami</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/content.js" defer></script>
+    <script src="js/site.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <a class="site-title" href="index.html">Ravan Hawrami</a>
+          <nav aria-label="Primary navigation">
+            <a href="index.html" aria-current="page">[Home]</a>
+            <a href="projects.html">[Prjects]</a>
+            <a href="publications.html">[Publications]</a>
+            <a href="visualizations.html">[Visualizations]</a>
+          </nav>
+          <div class="contact-links" aria-label="Contact links">
+            <a href="mailto:ravanhawrami@gmail.com">[Email]</a>
+            <a href="https://www.linkedin.com/in/ravan-hawrami-1995b225a/">[LinkedIn]</a>
+            <a href="https://github.com/rhawrami/">[GitHub]</a>
+          </div>
+        </div>
+        <img class="site-logo" src="./skeleton.png" alt="Skeleton logo">
+      </header>
+
+      <main>
+        <section>
+          <p id="summary"></p>
+        </section>
+
+        <section aria-labelledby="recent-publications-heading">
+          <h2 id="recent-publications-heading">Recent publications</h2>
+          <ol id="recent-publications" class="publication-list"></ol>
+          <p><a href="publications.html">[all publications]</a></p>
+        </section>
+
+        <section aria-labelledby="projects-heading">
+          <h2 id="projects-heading">Recent Projects</h2>
+          <ul id="recent-projects" class="project-list"></ul>
+          <p><a href="projects.html">[all projects]</a></p>
+        </section>
+
+        <section aria-labelledby="listening-heading">
+          <h2 id="listening-heading">Albums I like right now</h2>
+          <ul id="listening"></ul>
+        </section>
+
+        <section aria-labelledby="reading-heading">
+          <h2 id="reading-heading">What I'm reading right now</h2>
+          <ul id="reading"></ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

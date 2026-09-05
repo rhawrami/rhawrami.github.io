@@ -1,0 +1,296 @@
+:root {
+  color-scheme: dark;
+  --background: #282a36;
+  --foreground: #f8f8f2;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html.light-visualization {
+  --background: #ffffff;
+  --foreground: #282a36;
+}
+
+body {
+  margin: 0;
+}
+
+.page-shell {
+  width: min(100% - 3rem, 48rem);
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.site-title {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  font-size: clamp(1.35rem, 4vw, 1.75rem);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: clamp(8.25rem, 24vw, 12rem);
+  height: clamp(8.25rem, 24vw, 12rem);
+  object-fit: contain;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.5rem;
+  margin-top: 0.25rem;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  opacity: 0.35;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 0.25rem;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 0.25rem;
+}
+
+nav a[aria-current="page"] {
+  opacity: 0.35;
+  text-decoration: none;
+}
+
+section + section {
+  margin-top: 3.25rem;
+}
+
+h1,
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+li + li {
+  margin-top: 0.75rem;
+}
+
+.publication-list,
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+.publication-list li,
+main ul li {
+  padding-left: 1.5rem;
+}
+
+.publication-list li::before,
+main ul li::before {
+  content: "-";
+  float: left;
+  margin-left: -1.5rem;
+}
+
+.publication-date {
+  display: block;
+  font-size: 0.875rem;
+  opacity: 0.72;
+}
+
+.publication-list--full li + li {
+  margin-top: 1.25rem;
+}
+
+.project-list + p {
+  margin-top: 1rem;
+}
+
+.project-list--full li + li {
+  margin-top: 1.75rem;
+}
+
+.project-description {
+  margin: 0.35rem 0 0;
+}
+
+.text-button {
+  margin-top: 1.25rem;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+.text-button:hover {
+  opacity: 0.35;
+  text-decoration: none;
+}
+
+.citation-group + .citation-group {
+  margin-top: 2rem;
+}
+
+.citation-group h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: inherit;
+}
+
+.citation-source {
+  display: block;
+  font-size: 0.875rem;
+  opacity: 0.72;
+}
+
+.media-item {
+  position: relative;
+}
+
+.media-preview {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  display: none;
+  width: min(28rem, calc(100vw - 3rem));
+  background: var(--background);
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 45%);
+}
+
+.media-item:hover > .media-preview,
+.media-item:focus-within > .media-preview,
+.media-item.preview-open > .media-preview {
+  display: block;
+}
+
+.media-preview--book {
+  grid-template-columns: 8rem 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.media-item:hover > .media-preview--book,
+.media-item:focus-within > .media-preview--book,
+.media-item.preview-open > .media-preview--book {
+  display: grid;
+}
+
+.media-preview--book img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.media-preview--book p {
+  margin: 0;
+}
+
+.media-preview--spotify iframe {
+  display: block;
+  width: 100%;
+  height: 352px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.visualization {
+  margin-top: 0;
+  width: min(calc(100vw - 3rem), 80rem);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.visualization h1 {
+  font-weight: normal;
+}
+
+.visualization iframe {
+  display: block;
+  width: 100%;
+  height: clamp(36rem, 80vh, 56rem);
+  border: 0;
+  background: transparent;
+}
+
+@media (max-width: 36rem) {
+  .page-shell {
+    width: min(100% - 2rem, 48rem);
+    padding-top: 1.5rem;
+  }
+
+  .site-header {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .site-logo {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .media-preview--book {
+    grid-template-columns: 6rem 1fr;
+  }
+
+  .visualization {
+    width: calc(100vw - 2rem);
+  }
+}
+
+@media (hover: none) {
+  .media-preview {
+    position: static;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+}
