@@ -2,6 +2,14 @@ window.SITE_CONTENT = {
 	summary: "Hi. I'm a senior research assistant at The American Institute for Boys and Men (AIBM), primarily focused on the labor market and higher education. I also like to program. See below for some stuff I've done, some stuff I'm working, and some stuff I like. Feel free to connect via LinkedIn or email me; I'm open to talk to (mostly) anyone :)",
   projects: [
     {
+      title: "`Fuel Vig`",
+      url: "https://rhawrami.github.io/fuelvig",
+      summary: "A survey of U.S. gas prices since the start of the Iran War, and how much more you're paying now.",
+      description: [
+        "A survey of U.S. gas prices since the start of the Iran War, and how much more you're paying now. Track gas prices by jurisdiction and grade. You can also check counterfactuals with the car you drive and how often you fill your tank. Data is updated every day."
+      ]
+    },
+    {
       title: "`peGosus`",
       url: "https://github.com/rhawrami/pegosus/",
       description: [

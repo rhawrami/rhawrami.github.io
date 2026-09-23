@@ -17,6 +17,11 @@ function renderProjects(id, projects, descriptionMode = null) {
       let summaryComplete = false;
       description.className = "project-description";
 
+      if (descriptionMode === "summary" && project.summary) {
+        description.textContent = project.summary;
+        summaryComplete = true;
+      }
+
       project.description.forEach((part) => {
         if (summaryComplete) return;
 
