@@ -107,84 +107,89 @@ window.SITE_CONTENT = {
   ],
   publications: [
     {
-      title: "What's really going on with men and work? Seven facts",
-      url: "https://aibm.org/research/whats-really-going-on-with-men-and-work-7-facts/",
-      date: "2026/05/22"
+      "title": "Data Spotlight: Gender gaps in unpaid and paid work",
+      "url": "https://aibm.org/research/data-spotlight-gender-gaps-in-unpaid-and-paid-work/",
+      "date": "2026/09/22"
     },
     {
-      title: "Data Spotlight: Gender gaps across life",
-      url: "https://aibm.org/research/data-spotlight-gender-gaps-across-life/",
-      date: "2026/02/23"
+      "title": "What’s really going on with men and work? Seven facts",
+      "url": "https://aibm.org/research/whats-really-going-on-with-men-and-work-7-facts/",
+      "date": "2026/05/22"
     },
     {
-      title: "Occupations by gender: The facts",
-      url: "https://aibm.org/research/jobs-by-gender/",
-      date: "2025/10/31"
+      "title": "Data Spotlight: Gender gaps across life",
+      "url": "https://aibm.org/research/data-spotlight-gender-gaps-across-life/",
+      "date": "2026/02/23"
     },
     {
-      title: "Data Spotlight: Suicide deaths among young men",
-      url: "https://aibm.org/research/data-spotlight-suicide-deaths-among-young-men/",
-      date: "2025/09/10"
+      "title": "Occupations by gender: The facts",
+      "url": "https://aibm.org/research/jobs-by-gender/",
+      "date": "2025/10/31"
     },
     {
-      title: "Male suicide trends by class and occupation",
-      url: "https://aibm.org/research/male-suicide-trends-by-class-and-occupation/",
-      date: "2025/09/09"
+      "title": "Data Spotlight: Suicide deaths among young men",
+      "url": "https://aibm.org/research/data-spotlight-suicide-deaths-among-young-men/",
+      "date": "2025/09/10"
     },
     {
-      title: "Data Spotlight: Where do men get their education degrees?",
-      url: "https://aibm.org/research/data-spotlight-where-do-men-get-their-education-degrees/",
-      date: "2025/09/03"
+      "title": "Male suicide trends by class and occupation",
+      "url": "https://aibm.org/research/male-suicide-trends-by-class-and-occupation/",
+      "date": "2025/09/09"
     },
     {
-      title: "Men in higher education: A national data tool",
-      url: "https://aibm.org/research/men-in-higher-education-a-national-data-tool/",
-      date: "2025/07/07"
+      "title": "Data Spotlight: Where do men get their education degrees?",
+      "url": "https://aibm.org/research/data-spotlight-where-do-men-get-their-education-degrees/",
+      "date": "2025/09/03"
     },
     {
-      title: "A generation of lost men? The reality of NEET data",
-      url: "https://aibm.org/research/a-generation-of-lost-men-the-reality-of-neet-data/",
-      date: "2025/05/21"
+      "title": "Men in higher education: A national data tool",
+      "url": "https://aibm.org/research/men-in-higher-education-a-national-data-tool/",
+      "date": "2025/07/07"
     },
     {
-      title: "Deaths from drowning: The facts",
-      url: "https://aibm.org/research/deaths-from-drowning-the-facts/",
-      date: "2025/04/21"
+      "title": "A generation of lost men? The reality of NEET data",
+      "url": "https://aibm.org/research/a-generation-of-lost-men-the-reality-of-neet-data/",
+      "date": "2025/05/21"
     },
     {
-      title: "Major changes: Gender shifts in undergraduate studies over time",
-      url: "https://aibm.org/research/major-changes-gender-shifts-in-undergraduate-studies-over-time/",
-      date: "2025/04/03"
+      "title": "Deaths from drowning: The facts",
+      "url": "https://aibm.org/research/deaths-from-drowning-the-facts/",
+      "date": "2025/04/21"
     },
     {
-      title: "The HEAL Economy",
-      url: "https://aibm.org/research/the-heal-economy/",
-      date: "2025/03/28"
+      "title": "Major changes: Gender shifts in undergraduate studies over time",
+      "url": "https://aibm.org/research/major-changes-gender-shifts-in-undergraduate-studies-over-time/",
+      "date": "2025/04/03"
     },
     {
-      title: "Male homelessness in the United States",
-      url: "https://aibm.org/research/homelessness-in-the-united-states/",
-      date: "2025/02/27"
+      "title": "The HEAL Economy",
+      "url": "https://aibm.org/research/the-heal-economy/",
+      "date": "2025/03/28"
     },
     {
-      title: "Patterns and trends in county-level sex ratios",
-      url: "https://aibm.org/research/patterns-and-trends-in-county-level-sex-ratios/",
-      date: "2025/02/12"
+      "title": "Male homelessness in the United States",
+      "url": "https://aibm.org/research/homelessness-in-the-united-states/",
+      "date": "2025/02/27"
     },
     {
-      title: "Male stagnation in doctoral programs",
-      url: "https://aibm.org/research/male-stagnation-in-doctoral-programs/",
-      date: "2024/11/14"
+      "title": "Patterns and trends in county-level sex ratios",
+      "url": "https://aibm.org/research/patterns-and-trends-in-county-level-sex-ratios/",
+      "date": "2025/02/12"
     },
     {
-      title: "Unnatural male deaths: Fatal injuries and the rise of drug overdoses",
-      url: "https://aibm.org/research/unnatural-male-deaths/",
-      date: "2024/09/24"
+      "title": "Male stagnation in doctoral programs",
+      "url": "https://aibm.org/research/male-stagnation-in-doctoral-programs/",
+      "date": "2024/11/14"
     },
     {
-      title: "The state of working class men",
-      url: "https://aibm.org/research/the-state-of-working-class-men/",
-      date: "2024/08/29"
+      "title": "Unnatural male deaths: Fatal injuries and the rise of drug overdoses",
+      "url": "https://aibm.org/research/unnatural-male-deaths/",
+      "date": "2024/09/24"
+    },
+    {
+      "title": "The state of working class men",
+      "url": "https://aibm.org/research/the-state-of-working-class-men/",
+      "date": "2024/08/29"
     }
   ],
   citations: [
