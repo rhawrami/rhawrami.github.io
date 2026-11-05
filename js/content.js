@@ -452,6 +452,350 @@ window.SITE_CONTENT = {
           url: "https://aibm.org/research/jobs-by-gender/"
         }
       ]
+    },
+    {
+      title: "The New “Old Girls Network” in the American Workplace",
+      url: "https://www.aei.org/workforce-development/the-new-old-girls-network-in-the-american-workplace/",
+      authors: "Brent Orrell",
+      publisher: "American Enterprise Institute",
+      cites: [
+        {
+          title: "The state of working-class men",
+          url: "https://aibm.org/research/the-state-of-working-class-men/"
+        }
+      ]
+    },
+    {
+      title: "Solos, sin educación y desconectados: los hombres de la clase obrera no están bien",
+      url: "https://www.aceprensa.com/sociedad/hombre/solos-sin-educacion-y-desconectados-los-hombres-de-la-clase-obrera-no-estan-bien/",
+      authors: "Ana Zarzalejos Vicens",
+      publisher: "Aceprensa",
+      cites: [
+        {
+          title: "The state of working-class men",
+          url: "https://aibm.org/research/the-state-of-working-class-men/"
+        }
+      ]
+    },
+    {
+      title: "Working-Class Men Are Not Okay",
+      url: "https://jacobin.com/2024/10/working-class-men-health-unemployment",
+      authors: "Ryan Zickgraf",
+      publisher: "Jacobin",
+      cites: [
+        {
+          title: "The state of working-class men",
+          url: "https://aibm.org/research/the-state-of-working-class-men/"
+        }
+      ]
+    },
+    {
+      title: "Prosperity Masculinity",
+      url: "https://www.aaronrenn.com/p/prosperity-masculinity",
+      authors: "Aaron M. Renn",
+      publisher: "aaronrenn.com",
+      cites: [
+        {
+          title: "Unnatural male deaths: Fatal injuries and the rise of drug overdoses",
+          url: "https://aibm.org/research/unnatural-male-deaths/"
+        }
+      ]
+    },
+    {
+      title: "Memo to Dems: Don't blame sexism",
+      url: "https://ofboysandmen.substack.com/p/memo-to-dems-dont-blame-sexism",
+      authors: "Richard V. Reeves",
+      publisher: "Of Boys and Men",
+      cites: [
+        {
+          title: "The state of working-class men",
+          url: "https://aibm.org/research/the-state-of-working-class-men/"
+        }
+      ]
+    },
+    {
+      title: "Illinois Men’s Health Initial Assessment 2024–2025",
+      url: "https://dph.illinois.gov/content/dam/soi/en/web/idph/publications/idph/topics-and-services/life-stages-populations/mens-health/mens-health-assessment-20242025.pdf",
+      authors: "Illinois Department of Public Health",
+      publisher: "Illinois Department of Public Health",
+      cites: [
+        {
+          title: "Unnatural male deaths: Fatal injuries and the rise of drug overdoses",
+          url: "https://aibm.org/research/unnatural-male-deaths/"
+        }
+      ]
+    },
+    {
+      title: "The End of the End of Men",
+      url: "https://www.compactmag.com/article/the-end-of-the-end-of-men/",
+      authors: "Ryan Zickgraf",
+      publisher: "Compact",
+      cites: [
+        {
+          title: "The state of working-class men",
+          url: "https://aibm.org/research/the-state-of-working-class-men/"
+        }
+      ]
+    },
+    {
+      title: "Gov. Gretchen Whitmer joins the boys and men party",
+      url: "https://ofboysandmen.substack.com/p/gov-gretchen-whitmer-joins-the-boys",
+      authors: "Richard V. Reeves",
+      publisher: "Of Boys and Men",
+      cites: [
+        {
+          title: "Unnatural male deaths: Fatal injuries and the rise of drug overdoses",
+          url: "https://aibm.org/research/unnatural-male-deaths/"
+        }
+      ]
+    },
+    {
+      title: "Men, You're Needed Now: Richard Reeves' Plan for More Male Teachers & Nurses",
+      url: "https://allboy.substack.com/p/men-youre-needed-now-richard-reeves",
+      authors: "Chance Seales",
+      publisher: "All Boy",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "The Challenges Facing the Male Workforce in Nevada and What to Do About It",
+      url: "https://npwr.nv.gov/media/pdf/2025/research-reports/Social-Impact-Consultants-McCandless-report.pdf",
+      authors: "Grant McCandless, Autumn Robertson, and Santi Bent",
+      publisher: "Social Impact Consultants",
+      cites: [
+        {
+          title: "A generation of lost men? The reality of NEET data",
+          url: "https://aibm.org/research/a-generation-of-lost-men-the-reality-of-neet-data/"
+        },
+        {
+          title: "The state of working-class men",
+          url: "https://aibm.org/research/the-state-of-working-class-men/"
+        },
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Institute for Men Says Women Are Underpaid",
+      url: "https://googlemapsmania.blogspot.com/2025/07/institute-for-men-says-women-are.html",
+      authors: "Maps Mania",
+      publisher: "Maps Mania",
+      cites: [
+        {
+          title: "Men in higher education: A national data tool",
+          url: "https://aibm.org/research/men-in-higher-education-a-national-data-tool/"
+        }
+      ]
+    },
+    {
+      title: "Preparing Nevada’s Future Healthcare and Education Workforces: An Analysis of the K-12 and Higher Education Pipeline",
+      url: "https://npwr.nv.gov/media/pdf/2025/research-reports/BrookingsMW-Saladino-report.pdf",
+      authors: "David F. Damore, Caitlin J. Saladino, and William E. Brown Jr.",
+      publisher: "Brookings Mountain West",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        },
+        {
+          title: "A generation of lost men? The reality of NEET data",
+          url: "https://aibm.org/research/a-generation-of-lost-men-the-reality-of-neet-data/"
+        },
+        {
+          title: "Patterns and trends in county-level sex ratios",
+          url: "https://aibm.org/research/patterns-and-trends-in-county-level-sex-ratios/"
+        }
+      ]
+    },
+    {
+      title: "The Male Epidemic: Examining Why First-Year Students Are Dropping Out of College",
+      url: "https://jscholarship.library.jhu.edu/items/494b7385-a31b-46d1-911a-b4709ffca5b6",
+      authors: "Daniel P. Riseman",
+      publisher: "Johns Hopkins University",
+      cites: [
+        {
+          title: "Male stagnation in doctoral programs",
+          url: "https://aibm.org/research/male-stagnation-in-doctoral-programs/"
+        }
+      ]
+    },
+    {
+      title: "Gov. Gavin Newsom acts on boys and men",
+      url: "https://ofboysandmen.substack.com/p/gov-gavin-newsom-acts-on-boys-and",
+      authors: "Richard V. Reeves",
+      publisher: "Of Boys and Men",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Where Are the Young Men?",
+      url: "https://haslam.utk.edu/wp-content/uploads/2025/09/Where-are-the-Young-Men-BCBER-2025-09.pdf",
+      authors: "Celeste K. Carruthers and Thomas Verville",
+      publisher: "Boyd Center for Business & Economic Research, University of Tennessee",
+      cites: [
+        {
+          title: "A generation of lost men? The reality of NEET data",
+          url: "https://aibm.org/research/a-generation-of-lost-men-the-reality-of-neet-data/"
+        }
+      ]
+    },
+    {
+      title: "More Men in HEAL Jobs Would Boost Marriage Rates",
+      url: "https://ifstudies.org/blog/more-men-in-heal-jobs-would-boost-marriage-rates",
+      authors: "Richard V. Reeves",
+      publisher: "Institute for Family Studies",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Future Frontiers: Fostering Boys' Learning in the Forward-Thinking Classroom",
+      url: "https://www.theibsc.org/teaching-learning/action-research/2026-27-action-research",
+      authors: "International Boys' Schools Coalition",
+      publisher: "International Boys' Schools Coalition",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Why Nebraska Is Investing in Boys and the HEAL Economy",
+      url: "https://blog.nebraskachildren.org/2025/12/22/why-nebraska-is-investing-in-boys-and-the-heal-economy/",
+      authors: "Joe DiCostanzo",
+      publisher: "Nebraska Children and Families Foundation",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Illinois Department of Public Health 2025 Men’s Health Assessment",
+      url: "https://dph.illinois.gov/content/dam/soi/en/web/idph/publications/idph/topics-and-services/life-stages-populations/mens-health/men's-health-assessment-2025.pdf",
+      authors: "Illinois Department of Public Health",
+      publisher: "Illinois Department of Public Health",
+      cites: [
+        {
+          title: "Unnatural male deaths: Fatal injuries and the rise of drug overdoses",
+          url: "https://aibm.org/research/unnatural-male-deaths/"
+        }
+      ]
+    },
+    {
+      title: "A Pivotal Year",
+      url: "https://ofboysandmen.substack.com/p/a-pivotal-year",
+      authors: "Richard V. Reeves",
+      publisher: "Of Boys and Men",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Homelessness",
+      url: "https://www.britannica.com/procon/homelessness-debate",
+      authors: "Britannica ProCon",
+      publisher: "Britannica ProCon",
+      cites: [
+        {
+          title: "Male homelessness in the United States",
+          url: "https://aibm.org/research/homelessness-in-the-united-states/"
+        }
+      ]
+    },
+    {
+      title: "Brother’s Keeper working to help young men feel connected",
+      url: "https://spectrumnews1.com/oh/columbus/news/2026/02/14/suicide-rate-four-times-higher-for-men-than-women--one-group-working-on-helping-them-feel-connected",
+      authors: "Kimberly Perez",
+      publisher: "Spectrum News 1",
+      cites: [
+        {
+          title: "Data Spotlight: Suicide deaths among young men",
+          url: "https://aibm.org/research/data-spotlight-suicide-deaths-among-young-men/"
+        }
+      ]
+    },
+    {
+      title: "The empty chair in Nebraska’s HEAL workforce",
+      url: "https://journalstar.com/news/community/article_f3e5c9cb-b3c4-507c-b28b-f8366b413d33.html",
+      authors: "Joe DiCostanzo",
+      publisher: "Lincoln Journal Star",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Investigating the Role of Character Occupation and Gender in Impression Formation",
+      url: "https://rave.ohiolink.edu/etdc/view?acc_num=osu1776946754384282",
+      authors: "Sebastian Todd Lubert",
+      publisher: "The Ohio State University",
+      cites: [
+        {
+          title: "Occupations by gender: The facts",
+          url: "https://aibm.org/research/jobs-by-gender/"
+        }
+      ]
+    },
+    {
+      title: "The Jobs American Men Won’t Take",
+      url: "https://rjoroman.substack.com/p/the-jobs-american-men-wont-take",
+      authors: "Richard Roman",
+      publisher: "Trust Be Told",
+      cites: [
+        {
+          title: "The HEAL Economy",
+          url: "https://aibm.org/research/the-heal-economy/"
+        }
+      ]
+    },
+    {
+      title: "Men, College Degrees, and the Next Twenty Years",
+      url: "https://etcjournal.com/2026/09/15/men-college-degrees-and-the-next-twenty-years/",
+      authors: "Jim Shimabukuro",
+      publisher: "Educational Technology and Change Journal",
+      cites: [
+        {
+          title: "Male suicide trends by class and occupation",
+          url: "https://aibm.org/research/male-suicide-trends-by-class-and-occupation/"
+        },
+        {
+          title: "What's really going on with men and work? Seven facts",
+          url: "https://aibm.org/research/whats-really-going-on-with-men-and-work-7-facts/"
+        }
+      ]
+    },
+    {
+      title: "Navigating Spaces: An Examination of Female Glass Artists’ Experiences Working in Traditionally Male Dominated Environments",
+      url: "https://doi.org/10.1080/10632921.2026.2734567",
+      authors: "Molly Jo Burke",
+      publisher: "The Journal of Arts Management, Law, and Society",
+      cites: [
+        {
+          title: "Major changes: Gender shifts in undergraduate studies over time",
+          url: "https://aibm.org/research/major-changes-gender-shifts-in-undergraduate-studies-over-time/"
+        }
+      ]
     }
   ]
 };
