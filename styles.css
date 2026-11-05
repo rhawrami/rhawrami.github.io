@@ -47,12 +47,6 @@ body {
   text-decoration: none;
 }
 
-.site-logo {
-  width: clamp(8.25rem, 24vw, 12rem);
-  height: clamp(8.25rem, 24vw, 12rem);
-  object-fit: contain;
-}
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -275,11 +269,6 @@ main ul li::before {
   .site-header {
     gap: 1rem;
     margin-bottom: 3rem;
-  }
-
-  .site-logo {
-    width: 7.5rem;
-    height: 7.5rem;
   }
 
   .media-preview--book {

@@ -245,7 +245,6 @@ function renderRandomVisualization() {
 
   if (usesLightTheme) {
     document.documentElement.classList.add("light-visualization");
-    document.querySelector(".site-logo").src = "./skeleton_dark.png";
   }
 
   if (isDatawrapper) {
